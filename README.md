@@ -5,4 +5,5 @@ Surreal UI / Illustration library for Web, Apps or anything else.
 
 * About this Hub
 * Design-Hub
+* Use cases
 * License
