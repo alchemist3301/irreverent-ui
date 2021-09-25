@@ -7,12 +7,18 @@
 </template>
 
 <style lang="scss">
+@import '/assets/styles.scss';
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Azeret Mono', monospace , sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: black;
+}
+
+::selection {
+  color: #FF00AB;
+  background: #74FF00;
 }
 
 #nav {
@@ -20,10 +26,11 @@
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: black;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #FF00AB;
+      background: #74FF00;
     }
   }
 }
